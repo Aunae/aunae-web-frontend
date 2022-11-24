@@ -1,6 +1,6 @@
-import './App.css';
+import '../styles/login.css';
 
-function App() {
+const Login = () => {
   return (
     <div>
       <div class="container">
@@ -48,6 +48,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
-export default App;
+export default Login;
