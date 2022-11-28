@@ -29,12 +29,12 @@ function MainRouter() {
       {/* {isLogin && userObj ? ( */}
       {false ? (
         <Routes>
-          <Route path="*" element={<Navigate replace to="/"></Navigate>} />
+          <Route path="*" element={<Navigate replace to="/" />} />
           <Route path="/" element={<NotFound />} />
         </Routes>
       ) : (
         <Routes>
-          <Route path="/" element={<Navigate replace to="/login"></Navigate>} />
+          <Route path="/" element={<Navigate replace to="/login" />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="*" element={<NotFound />} />
