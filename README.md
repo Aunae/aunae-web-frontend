@@ -1,7 +1,4 @@
-# Aunae web frontend
+Aunae web frontend / dev / silverhyeok
+===
 
-### 주의사항
-
-반드시 코딩을 시작하기 전에 반드시 git pull 명령어를 통하여 코드 최신화를 해주세요.
-
-또한 git switch {브런치명}을 하면 해당 브런치에 없는 코드(본인이 로컬에서 작성한)는 삭제되게 되니 주의 그리고 또 주의해주세요.
+### frontend EunHyeokJung's dev branch
