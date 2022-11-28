@@ -94,7 +94,7 @@ body {
 }
 
 .login {
-    width: 360px;
+    width: 400px;
     padding: 30px;
     padding-top: 110px;
 }
@@ -139,7 +139,7 @@ body {
     font-weight: 700;
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 80%;
     color: #485c9d;
     box-shadow: 0px 2px 2px #565e96;
     cursor: pointer;
