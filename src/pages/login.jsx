@@ -1,10 +1,13 @@
 import "../styles/login.css";
+import Player from "./Player";
 
 const Login = () => {
     return (
         <div>
             <div class="left">
-                <p>Left screen</p>
+                <div class="left__player">
+                    <Player />
+                </div>
             </div>
             <div class="right">
                 <div class="container">

@@ -1,0 +1,25 @@
+.demo-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.square {
+    float: left;
+    width: 30px;
+    height: 30px;
+    pointer-events: none;
+    position: relative;
+    background-color: currentColor;
+    font-size: 14px;
+    background-color: #038DE5;
+}

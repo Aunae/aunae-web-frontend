@@ -8,16 +8,41 @@
 }
 
 div {
-  display: block;
+    display: block;
 }
+
 form {
-  display: block;
-  margin-top: 0em;
+    display: block;
+    margin-top: 0em;
 }
+
 body {
-  display: block;
-  margin: 8px;
-  background: linear-gradient(90deg, rgb(226, 224, 255), #3071c3);
+    display: block;
+    margin: 8px;
+    background: linear-gradient(90deg, rgb(226, 224, 255), #3071c3);
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    float: left;
+    align-items: center;
+    justify-content: center;
+}
+
+.left__player {
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    width: 50%;
+    height: 100;
+    box-sizing: border-box;
+    float: right;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
@@ -177,11 +202,11 @@ body {
 }
 
 .aunae-logo h3 {
-  display: block;
-  font-size: 1.17em;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
 }
